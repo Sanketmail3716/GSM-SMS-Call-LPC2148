@@ -24,7 +24,7 @@ void GSM_Delete_All_Msg(void);
 char buff[160];		/* buffer to store responses and messages */
 bool status_flag = false;	/* for checking any new message */
 volatile int buffer_pointer;
-char Mobile_no[14]="8010084268";		/* store mobile no. of received message */
+char Mobile_no[14]="XXXXXXXXXX";		/* store mobile no. of received message */
 char message_received[60];		/* save received message */
 int position = 0;	/* save location of current message */
 
